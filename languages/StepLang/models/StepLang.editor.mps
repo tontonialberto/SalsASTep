@@ -59,6 +59,9 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
+        <child id="1068580123156" name="expression" index="3clFbG" />
+      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -88,8 +91,37 @@
       <node concept="3F0A7n" id="7uilBodvZPe" role="3EZMnx">
         <ref role="1NtTu8" to="4t7n:7uilBodvZOD" resolve="foot" />
       </node>
-      <node concept="3F0ifn" id="7uilBodvZPq" role="3EZMnx">
+      <node concept="3F0ifn" id="7uilBodz$4g" role="3EZMnx">
+        <property role="3F0ifm" value="taps" />
+        <node concept="pkWqt" id="7uilBodz$b_" role="pqm2j">
+          <node concept="3clFbS" id="7uilBodz$bA" role="2VODD2">
+            <node concept="3clFbF" id="7uilBodz$c3" role="3cqZAp">
+              <node concept="2OqwBi" id="7uilBodz$sJ" role="3clFbG">
+                <node concept="pncrf" id="7uilBodz$c2" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7uilBodz$GE" role="2OqNvi">
+                  <ref role="3TsBF5" to="4t7n:7uilBodvZOH" resolve="isTap" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7uilBodz$QW" role="3EZMnx">
         <property role="3F0ifm" value="steps" />
+        <node concept="pkWqt" id="7uilBodz$St" role="pqm2j">
+          <node concept="3clFbS" id="7uilBodz$Su" role="2VODD2">
+            <node concept="3clFbF" id="7uilBodz$Xl" role="3cqZAp">
+              <node concept="3fqX7Q" id="7uilBodz$Xj" role="3clFbG">
+                <node concept="2OqwBi" id="7uilBodz_pP" role="3fr31v">
+                  <node concept="pncrf" id="7uilBodz_6z" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="7uilBodz_LO" role="2OqNvi">
+                    <ref role="3TsBF5" to="4t7n:7uilBodvZOH" resolve="isTap" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F0A7n" id="7uilBodvZPu" role="3EZMnx">
         <ref role="1NtTu8" to="4t7n:7uilBodvZOE" resolve="directionForward" />

@@ -10,6 +10,10 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
+        <child id="1068498886297" name="rValue" index="37vLTx" />
+        <child id="1068498886295" name="lValue" index="37vLTJ" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -20,11 +24,15 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
@@ -70,7 +78,7 @@
       <node concept="3clFbS" id="7uilBodxJZN" role="2VODD2">
         <node concept="3clFbF" id="7uilBodxK7d" role="3cqZAp">
           <node concept="Xl_RD" id="7uilBodxK7c" role="3clFbG">
-            <property role="Xl_RC" value="Step to the Left" />
+            <property role="Xl_RC" value="Step to the Left Side" />
           </node>
         </node>
       </node>
@@ -123,7 +131,7 @@
       <node concept="3clFbS" id="7uilBodxTiY" role="2VODD2">
         <node concept="3clFbF" id="7uilBodxTqd" role="3cqZAp">
           <node concept="Xl_RD" id="7uilBodxTqc" role="3clFbG">
-            <property role="Xl_RC" value="Step to the Right" />
+            <property role="Xl_RC" value="Step to the Right Side" />
           </node>
         </node>
       </node>
@@ -214,6 +222,196 @@
               <node concept="21noJN" id="7uilBodyaaJ" role="2OqNvi">
                 <node concept="21nZrQ" id="7uilBodyaaK" role="21noJM">
                   <ref role="21nZrZ" to="4t7n:7uilBodvZOB" resolve="InPlace" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="7uilBodzuED">
+    <property role="TrG5h" value="TurnStepToTap" />
+    <ref role="2ZfgGC" to="4t7n:7uilBodvZOn" resolve="Step" />
+    <node concept="2S6ZIM" id="7uilBodzuEE" role="2ZfVej">
+      <node concept="3clFbS" id="7uilBodzuEF" role="2VODD2">
+        <node concept="3clFbF" id="7uilBodzuMk" role="3cqZAp">
+          <node concept="Xl_RD" id="7uilBodzuMj" role="3clFbG">
+            <property role="Xl_RC" value="Turn Step to Tap" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="7uilBodzuEG" role="2ZfgGD">
+      <node concept="3clFbS" id="7uilBodzuEH" role="2VODD2">
+        <node concept="3clFbF" id="7uilBodzvWV" role="3cqZAp">
+          <node concept="37vLTI" id="7uilBodzxkk" role="3clFbG">
+            <node concept="3clFbT" id="7uilBodzxpr" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="7uilBodzw79" role="37vLTJ">
+              <node concept="2Sf5sV" id="7uilBodzvWU" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7uilBodzwuh" role="2OqNvi">
+                <ref role="3TsBF5" to="4t7n:7uilBodvZOH" resolve="isTap" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="7uilBodzv5F" role="2ZfVeh">
+      <node concept="3clFbS" id="7uilBodzv5G" role="2VODD2">
+        <node concept="3clFbF" id="7uilBodzvaX" role="3cqZAp">
+          <node concept="3fqX7Q" id="7uilBodzvPb" role="3clFbG">
+            <node concept="2OqwBi" id="7uilBodzvPd" role="3fr31v">
+              <node concept="2Sf5sV" id="7uilBodzvPe" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7uilBodzvPf" role="2OqNvi">
+                <ref role="3TsBF5" to="4t7n:7uilBodvZOH" resolve="isTap" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="7uilBodzxyZ">
+    <property role="TrG5h" value="TurnTapToStep" />
+    <ref role="2ZfgGC" to="4t7n:7uilBodvZOn" resolve="Step" />
+    <node concept="2S6ZIM" id="7uilBodzxz0" role="2ZfVej">
+      <node concept="3clFbS" id="7uilBodzxz1" role="2VODD2">
+        <node concept="3clFbF" id="7uilBodzxE3" role="3cqZAp">
+          <node concept="Xl_RD" id="7uilBodzxE2" role="3clFbG">
+            <property role="Xl_RC" value="Turn Tap to Step" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="7uilBodzxz2" role="2ZfgGD">
+      <node concept="3clFbS" id="7uilBodzxz3" role="2VODD2">
+        <node concept="3clFbF" id="7uilBodzyDj" role="3cqZAp">
+          <node concept="37vLTI" id="7uilBodzzz9" role="3clFbG">
+            <node concept="3clFbT" id="7uilBodzzzw" role="37vLTx" />
+            <node concept="2OqwBi" id="7uilBodzyDB" role="37vLTJ">
+              <node concept="2Sf5sV" id="7uilBodzyDi" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7uilBodzyH6" role="2OqNvi">
+                <ref role="3TsBF5" to="4t7n:7uilBodvZOH" resolve="isTap" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="7uilBodzxSL" role="2ZfVeh">
+      <node concept="3clFbS" id="7uilBodzxSM" role="2VODD2">
+        <node concept="3clFbF" id="7uilBodzxY8" role="3cqZAp">
+          <node concept="2OqwBi" id="7uilBodzyeO" role="3clFbG">
+            <node concept="2Sf5sV" id="7uilBodzxY7" role="2Oq$k0" />
+            <node concept="3TrcHB" id="7uilBodzyA2" role="2OqNvi">
+              <ref role="3TsBF5" to="4t7n:7uilBodvZOH" resolve="isTap" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="7uilBod$Zdb">
+    <property role="TrG5h" value="TurnToRightFoot" />
+    <ref role="2ZfgGC" to="4t7n:7uilBodvZOn" resolve="Step" />
+    <node concept="2S6ZIM" id="7uilBod$Zdc" role="2ZfVej">
+      <node concept="3clFbS" id="7uilBod$Zdd" role="2VODD2">
+        <node concept="3clFbF" id="7uilBod$ZsQ" role="3cqZAp">
+          <node concept="Xl_RD" id="7uilBod$ZsP" role="3clFbG">
+            <property role="Xl_RC" value="Turn to Right Foot" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="7uilBod$Zde" role="2ZfgGD">
+      <node concept="3clFbS" id="7uilBod$Zdf" role="2VODD2">
+        <node concept="3clFbF" id="7uilBod_1fQ" role="3cqZAp">
+          <node concept="2OqwBi" id="7uilBod_2yA" role="3clFbG">
+            <node concept="2OqwBi" id="7uilBod_1q4" role="2Oq$k0">
+              <node concept="2Sf5sV" id="7uilBod_1fP" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7uilBod_1AY" role="2OqNvi">
+                <ref role="3TsBF5" to="4t7n:7uilBodvZOD" resolve="foot" />
+              </node>
+            </node>
+            <node concept="tyxLq" id="7uilBod_2PF" role="2OqNvi">
+              <node concept="21nZrQ" id="7uilBod_2TU" role="tz02z">
+                <ref role="21nZrZ" to="4t7n:7uilBodvZOr" resolve="Right" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="7uilBod$ZEm" role="2ZfVeh">
+      <node concept="3clFbS" id="7uilBod$ZEn" role="2VODD2">
+        <node concept="3clFbF" id="7uilBod$ZJM" role="3cqZAp">
+          <node concept="3fqX7Q" id="7uilBod_17N" role="3clFbG">
+            <node concept="2OqwBi" id="7uilBod_17P" role="3fr31v">
+              <node concept="2OqwBi" id="7uilBod_17Q" role="2Oq$k0">
+                <node concept="2Sf5sV" id="7uilBod_17R" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7uilBod_17S" role="2OqNvi">
+                  <ref role="3TsBF5" to="4t7n:7uilBodvZOD" resolve="foot" />
+                </node>
+              </node>
+              <node concept="21noJN" id="7uilBod_17T" role="2OqNvi">
+                <node concept="21nZrQ" id="7uilBod_17U" role="21noJM">
+                  <ref role="21nZrZ" to="4t7n:7uilBodvZOr" resolve="Right" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="7uilBod_2UC">
+    <property role="TrG5h" value="TurnToLeftFoot" />
+    <ref role="2ZfgGC" to="4t7n:7uilBodvZOn" resolve="Step" />
+    <node concept="2S6ZIM" id="7uilBod_2UD" role="2ZfVej">
+      <node concept="3clFbS" id="7uilBod_2UE" role="2VODD2">
+        <node concept="3clFbF" id="7uilBod_32e" role="3cqZAp">
+          <node concept="Xl_RD" id="7uilBod_3FK" role="3clFbG">
+            <property role="Xl_RC" value="Turn to Left Foot" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="7uilBod_2UF" role="2ZfgGD">
+      <node concept="3clFbS" id="7uilBod_2UG" role="2VODD2">
+        <node concept="3clFbF" id="7uilBod_5g2" role="3cqZAp">
+          <node concept="2OqwBi" id="7uilBod_5LG" role="3clFbG">
+            <node concept="2OqwBi" id="7uilBod_5qg" role="2Oq$k0">
+              <node concept="2Sf5sV" id="7uilBod_5g1" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7uilBod_5BK" role="2OqNvi">
+                <ref role="3TsBF5" to="4t7n:7uilBodvZOD" resolve="foot" />
+              </node>
+            </node>
+            <node concept="tyxLq" id="7uilBod_5WJ" role="2OqNvi">
+              <node concept="21nZrQ" id="7uilBod_5Z_" role="tz02z">
+                <ref role="21nZrZ" to="4t7n:7uilBodvZOq" resolve="Left" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="7uilBod_3VL" role="2ZfVeh">
+      <node concept="3clFbS" id="7uilBod_3VM" role="2VODD2">
+        <node concept="3clFbF" id="7uilBod_47p" role="3cqZAp">
+          <node concept="3fqX7Q" id="7uilBod_47n" role="3clFbG">
+            <node concept="2OqwBi" id="7uilBod_509" role="3fr31v">
+              <node concept="2OqwBi" id="7uilBod_4vS" role="2Oq$k0">
+                <node concept="2Sf5sV" id="7uilBod_4cA" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7uilBod_4Lx" role="2OqNvi">
+                  <ref role="3TsBF5" to="4t7n:7uilBodvZOD" resolve="foot" />
+                </node>
+              </node>
+              <node concept="21noJN" id="7uilBod_5bw" role="2OqNvi">
+                <node concept="21nZrQ" id="7uilBod_5by" role="21noJM">
+                  <ref role="21nZrZ" to="4t7n:7uilBodvZOq" resolve="Left" />
                 </node>
               </node>
             </node>
