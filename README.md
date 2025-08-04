@@ -14,7 +14,7 @@ For example, here's the definition for the On2 Basic Step on the spot:
 
 And here is a demo in MPS:
 
-![DSL Definition Demo](./media/definition-example.mkv)
+![DSL Definition Demo](./media/definition-example.gif)
 
 Moreover, this language workbench provides several quickfixes to make the editing experience as smooth as possible:
 
