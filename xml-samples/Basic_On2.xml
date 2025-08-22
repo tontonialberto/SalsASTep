@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<choreography name="Basic On2">
+    <step is-tap="false">
+        <foot>
+            <left></left>
+        </foot>
+        <lateral-direction>
+            <in-place></in-place>
+        </lateral-direction>
+        <forward-direction>
+            <in-place></in-place>
+        </forward-direction>
+    </step>
+    <step is-tap="false">
+        <foot>
+            <right></right>
+        </foot>
+        <lateral-direction>
+            <in-place></in-place>
+        </lateral-direction>
+        <forward-direction>
+            <backwards></backwards>
+        </forward-direction>
+    </step>
+    <step is-tap="false">
+        <foot>
+            <left></left>
+        </foot>
+        <lateral-direction>
+            <in-place></in-place>
+        </lateral-direction>
+        <forward-direction>
+            <in-place></in-place>
+        </forward-direction>
+    </step>
+    <pause></pause>
+    <step is-tap="false">
+        <foot>
+            <right></right>
+        </foot>
+        <lateral-direction>
+            <in-place></in-place>
+        </lateral-direction>
+        <forward-direction>
+            <forward></forward>
+        </forward-direction>
+    </step>
+    <step is-tap="false">
+        <foot>
+            <left></left>
+        </foot>
+        <lateral-direction>
+            <in-place></in-place>
+        </lateral-direction>
+        <forward-direction>
+            <forward></forward>
+        </forward-direction>
+    </step>
+    <!-- Step 7: Right foot in place -->
+    <step is-tap="false">
+        <foot>
+            <right></right>
+        </foot>
+        <lateral-direction>
+            <in-place></in-place>
+        </lateral-direction>
+        <forward-direction>
+            <in-place></in-place>
+        </forward-direction>
+    </step>
+    <!-- Pause (hold on 8) -->
+    <pause></pause>
+</choreography>

@@ -2,9 +2,19 @@
 
 Language workbench for the "StepLang" Domain-Specific Language to express salsa (on1, on2, cuban) footwork patterns, written using JetBrains MPS.
 
+You can define two kinds of root nodes in StepLang:
+- *Choreography*: it's the breakdown of a (usually short) step sequence
+  - For example, the Salsa On2 Basic Step can be expressed as a Choreography
+- *CourseSyllabus*: it's a collection of choreographies with, hopefully, some common characteristic
+  - For example, a collection of Salsa On2 Shines for Beginners can be expressed as a CourseSyllabus
+
+Moreover, it's possible to **import choreographies in XML format** - take a look at [this folder](./xml-samples) for examples.
+
+The course syllabus and choreographies defined in StepLang can be exported as text, as I've implemented a basic **text generator from StepLang to human language**.
+
 ### Showcase
 
-To make a step sequence, you can alternate these fundamental actions:
+To make a choreography, you can alternate these fundamental actions:
 - Step or tap in one direction
 - Pause
 
@@ -23,6 +33,8 @@ Moreover, this language workbench provides several quickfixes to make the editin
 Lastly, it also enforces some constraint rules:
 
 ![DSL Constraints](./media/constraints.png)
+
+### Text Generation 
 
 ### More details
 

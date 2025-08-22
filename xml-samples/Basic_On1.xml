@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<choreography name="Basic On1">
+    <step is-tap="false">
+        <foot>
+            <left></left>
+        </foot>
+        <lateral-direction>
+            <in-place></in-place>
+        </lateral-direction>
+        <forward-direction>
+            <forward></forward>
+        </forward-direction>
+    </step>
+    <step is-tap="false">
+        <foot>
+            <right></right>
+        </foot>
+        <lateral-direction>
+            <in-place></in-place>
+        </lateral-direction>
+        <forward-direction>
+            <in-place></in-place>
+        </forward-direction>
+    </step>
+    <step is-tap="false">
+        <foot>
+            <left></left>
+        </foot>
+        <lateral-direction>
+            <in-place></in-place>
+        </lateral-direction>
+        <forward-direction>
+            <backwards></backwards>
+        </forward-direction>
+    </step>
+    <pause></pause>
+    <step is-tap="false">
+        <foot>
+            <right></right>
+        </foot>
+        <lateral-direction>
+            <in-place></in-place>
+        </lateral-direction>
+        <forward-direction>
+            <backwards></backwards>
+        </forward-direction>
+    </step>
+    <step is-tap="false">
+        <foot>
+            <left></left>
+        </foot>
+        <lateral-direction>
+            <in-place></in-place>
+        </lateral-direction>
+        <forward-direction>
+            <in-place></in-place>
+        </forward-direction>
+    </step>
+    <step is-tap="false">
+        <foot>
+            <right></right>
+        </foot>
+        <lateral-direction>
+            <in-place></in-place>
+        </lateral-direction>
+        <forward-direction>
+            <forward></forward>
+        </forward-direction>
+    </step>
+    <pause></pause>
+</choreography>

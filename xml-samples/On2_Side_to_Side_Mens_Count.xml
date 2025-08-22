@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<choreography name="On2 Side to Side (Men's Count)">
+    <!-- Step 1: Left foot in place -->
+    <step is-tap="false">
+        <foot>
+            <left></left>
+        </foot>
+        <lateral-direction>
+            <in-place></in-place>
+        </lateral-direction>
+        <forward-direction>
+            <in-place></in-place>
+        </forward-direction>
+    </step>
+    <!-- Step 2: Right foot to the side -->
+    <step is-tap="false">
+        <foot>
+            <right></right>
+        </foot>
+        <lateral-direction>
+            <right></right>
+        </lateral-direction>
+        <forward-direction>
+            <in-place></in-place>
+        </forward-direction>
+    </step>
+    <!-- Step 3: Left foot in place -->
+    <step is-tap="false">
+        <foot>
+            <left></left>
+        </foot>
+        <lateral-direction>
+            <in-place></in-place>
+        </lateral-direction>
+        <forward-direction>
+            <in-place></in-place>
+        </forward-direction>
+    </step>
+    <!-- Pause (hold on 4) -->
+    <pause></pause>
+    <!-- Step 5: Right foot to the left side -->
+    <step is-tap="false">
+        <foot>
+            <right></right>
+        </foot>
+        <lateral-direction>
+            <left></left>
+        </lateral-direction>
+        <forward-direction>
+            <in-place></in-place>
+        </forward-direction>
+    </step>
+    <!-- Step 6: Left foot to the side -->
+    <step is-tap="false">
+        <foot>
+            <left></left>
+        </foot>
+        <lateral-direction>
+            <left></left>
+        </lateral-direction>
+        <forward-direction>
+            <in-place></in-place>
+        </forward-direction>
+    </step>
+    <!-- Step 7: Right foot in place -->
+    <step is-tap="false">
+        <foot>
+            <right></right>
+        </foot>
+        <lateral-direction>
+            <in-place></in-place>
+        </lateral-direction>
+        <forward-direction>
+            <in-place></in-place>
+        </forward-direction>
+    </step>
+    <!-- Pause (hold on 8) -->
+    <pause></pause>
+</choreography>
