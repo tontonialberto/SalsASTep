@@ -176,12 +176,12 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="moves" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="5OBJED3nrj" resolve="MoveRef" />
+      <ref role="20lvS9" node="5OBJED3nrj" resolve="ChoreographyRef" />
     </node>
   </node>
   <node concept="1TIwiD" id="5OBJED3nrj">
     <property role="EcuMT" value="104883490751608531" />
-    <property role="TrG5h" value="MoveRef" />
+    <property role="TrG5h" value="ChoreographyRef" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyj" id="5OBJED3ny4" role="1TKVEi">
       <property role="IQ2ns" value="104883490751608964" />

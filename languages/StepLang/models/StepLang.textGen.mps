@@ -451,7 +451,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="5OBJED5qqA">
-    <ref role="WuzLi" to="4t7n:5OBJED3nrj" resolve="MoveRef" />
+    <ref role="WuzLi" to="4t7n:5OBJED3nrj" resolve="ChoreographyRef" />
     <node concept="11bSqf" id="5OBJED5qrt" role="11c4hB">
       <node concept="3clFbS" id="5OBJED5qru" role="2VODD2">
         <node concept="3izx1p" id="5OBJED5qrR" role="3cqZAp">
