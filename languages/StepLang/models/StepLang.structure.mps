@@ -163,5 +163,32 @@
       <property role="1L1pqM" value="in-place" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5OBJED3kEg">
+    <property role="EcuMT" value="104883490751597200" />
+    <property role="TrG5h" value="CourseSyllabus" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="5OBJED3kJl" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="5OBJED3kRN" role="1TKVEi">
+      <property role="IQ2ns" value="104883490751598067" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="moves" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="5OBJED3nrj" resolve="MoveRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5OBJED3nrj">
+    <property role="EcuMT" value="104883490751608531" />
+    <property role="TrG5h" value="MoveRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="5OBJED3ny4" role="1TKVEi">
+      <property role="IQ2ns" value="104883490751608964" />
+      <property role="20kJfa" value="move" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4OKvLzWUkHo" resolve="Choreography" />
+    </node>
+  </node>
 </model>
 

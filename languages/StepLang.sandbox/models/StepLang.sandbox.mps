@@ -7,6 +7,12 @@
   <imports />
   <registry>
     <language id="7b411c5a-3189-40bc-870d-6f7ff7488e51" name="StepLang">
+      <concept id="104883490751597200" name="StepLang.structure.CourseSyllabus" flags="ng" index="2CuthE">
+        <child id="104883490751598067" name="moves" index="2Cutc9" />
+      </concept>
+      <concept id="104883490751608531" name="StepLang.structure.MoveRef" flags="ng" index="2CuuwD">
+        <reference id="104883490751608964" name="move" index="2CuupY" />
+      </concept>
       <concept id="5562085285101652824" name="StepLang.structure.Choreography" flags="ng" index="2LQjh0">
         <child id="5562085285101652827" name="actions" index="2LQjh3" />
       </concept>
@@ -24,7 +30,7 @@
     </language>
   </registry>
   <node concept="2LQjh0" id="7uilBodwmWL">
-    <property role="TrG5h" value="Basic step, on the spot" />
+    <property role="TrG5h" value="On2 Basic In Place" />
     <node concept="1UVqHx" id="7uilBodwzTh" role="2LQjh3">
       <property role="1UVqHv" value="7uilBodvZOr/Right" />
       <property role="1UVqHs" value="7uilBodvZOx/InPlace" />
@@ -54,7 +60,7 @@
     <node concept="1UVqHz" id="7uilBodwQOB" role="2LQjh3" />
   </node>
   <node concept="2LQjh0" id="7uilBodx_GQ">
-    <property role="TrG5h" value="Basic step, backwards" />
+    <property role="TrG5h" value="On2 Basic Backwards" />
     <node concept="1UVqHx" id="7uilBodx_GS" role="2LQjh3">
       <property role="1UVqHv" value="7uilBodvZOr/Right" />
       <property role="1UVqHs" value="7uilBodvZOx/InPlace" />
@@ -83,7 +89,7 @@
     <node concept="1UVqHz" id="7uilBodx_Hg" role="2LQjh3" />
   </node>
   <node concept="2LQjh0" id="7uilBody13i">
-    <property role="TrG5h" value="Cumbia step" />
+    <property role="TrG5h" value="On2 Cumbia step" />
     <node concept="1UVqHx" id="7uilBodykB5" role="2LQjh3">
       <property role="1UVqHv" value="7uilBodvZOr/Right" />
       <property role="1UVqHs" value="7uilBodvZOx/InPlace" />
@@ -127,7 +133,7 @@
     <node concept="1UVqHz" id="7uilBodzIk0" role="2LQjh3" />
   </node>
   <node concept="2LQjh0" id="1XJGU7EqXEM">
-    <property role="TrG5h" value="Basic Cuban" />
+    <property role="TrG5h" value="On1 Basic" />
     <node concept="1UVqHx" id="1XJGU7EqXEO" role="2LQjh3">
       <property role="1UVqHv" value="7uilBodvZOq/Left" />
       <property role="1UVqHs" value="7uilBodvZOv/Forward" />
@@ -154,6 +160,21 @@
       <property role="1UVqHs" value="7uilBodvZOv/Forward" />
     </node>
     <node concept="1UVqHz" id="2pzH$YO9qAn" role="2LQjh3" />
+  </node>
+  <node concept="2CuthE" id="5OBJED405g">
+    <property role="TrG5h" value="_ On2 Footwork" />
+    <node concept="2CuuwD" id="5OBJED405h" role="2Cutc9">
+      <ref role="2CuupY" node="5OBJED2I1Z" resolve="On2 Side to Side (Men's Count)" />
+    </node>
+    <node concept="2CuuwD" id="5OBJED40oG" role="2Cutc9">
+      <ref role="2CuupY" node="7uilBody13i" resolve="Cumbia step" />
+    </node>
+    <node concept="2CuuwD" id="5OBJED41eH" role="2Cutc9">
+      <ref role="2CuupY" node="7uilBodx_GQ" resolve="On2 Basic Backwards" />
+    </node>
+    <node concept="2CuuwD" id="5OBJED41jM" role="2Cutc9">
+      <ref role="2CuupY" node="7uilBodwmWL" resolve="On2 Basic In Place" />
+    </node>
   </node>
   <node concept="2LQjh0" id="5OBJED2I1Z">
     <property role="TrG5h" value="On2 Side to Side (Men's Count)" />
@@ -186,6 +207,12 @@
       <property role="1UVqHs" value="7uilBodvZOx/InPlace" />
     </node>
     <node concept="1UVqHz" id="5OBJED2I28" role="2LQjh3" />
+  </node>
+  <node concept="2CuthE" id="5OBJED41o1">
+    <property role="TrG5h" value="_ On1 Footwork" />
+    <node concept="2CuuwD" id="5OBJED41o2" role="2Cutc9">
+      <ref role="2CuupY" node="1XJGU7EqXEM" resolve="On1 Basic" />
+    </node>
   </node>
 </model>
 
