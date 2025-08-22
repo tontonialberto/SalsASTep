@@ -126,5 +126,66 @@
     </node>
     <node concept="1UVqHz" id="7uilBodzIk0" role="2LQjh3" />
   </node>
+  <node concept="2LQjh0" id="1XJGU7EqXEM">
+    <property role="TrG5h" value="Basic Cuban" />
+    <node concept="1UVqHx" id="1XJGU7EqXEO" role="2LQjh3">
+      <property role="1UVqHv" value="7uilBodvZOq/Left" />
+      <property role="1UVqHs" value="7uilBodvZOv/Forward" />
+    </node>
+    <node concept="1UVqHx" id="1XJGU7EqXER" role="2LQjh3">
+      <property role="1UVqHv" value="7uilBodvZOr/Right" />
+      <property role="1UVqHs" value="7uilBodvZOx/InPlace" />
+    </node>
+    <node concept="1UVqHx" id="1XJGU7EqXEU" role="2LQjh3">
+      <property role="1UVqHv" value="7uilBodvZOq/Left" />
+      <property role="1UVqHs" value="7uilBodvZOw/Backwards" />
+    </node>
+    <node concept="1UVqHz" id="2pzH$YO7RQM" role="2LQjh3" />
+    <node concept="1UVqHx" id="2pzH$YO7RQP" role="2LQjh3">
+      <property role="1UVqHv" value="7uilBodvZOr/Right" />
+      <property role="1UVqHs" value="7uilBodvZOw/Backwards" />
+    </node>
+    <node concept="1UVqHx" id="2pzH$YO7RQS" role="2LQjh3">
+      <property role="1UVqHv" value="7uilBodvZOq/Left" />
+      <property role="1UVqHs" value="7uilBodvZOx/InPlace" />
+    </node>
+    <node concept="1UVqHx" id="2pzH$YO7RQV" role="2LQjh3">
+      <property role="1UVqHv" value="7uilBodvZOr/Right" />
+      <property role="1UVqHs" value="7uilBodvZOv/Forward" />
+    </node>
+    <node concept="1UVqHz" id="2pzH$YO9qAn" role="2LQjh3" />
+  </node>
+  <node concept="2LQjh0" id="5OBJED2I1Z">
+    <property role="TrG5h" value="On2 Side to Side (Men's Count)" />
+    <node concept="1UVqHx" id="5OBJED2I21" role="2LQjh3">
+      <property role="1UVqHv" value="7uilBodvZOq/Left" />
+      <property role="1UVqHs" value="7uilBodvZOx/InPlace" />
+    </node>
+    <node concept="1UVqHx" id="5OBJED2I22" role="2LQjh3">
+      <property role="1UVqHv" value="7uilBodvZOr/Right" />
+      <property role="1UVqHq" value="7uilBodvZOA/Right" />
+      <property role="1UVqHs" value="7uilBodvZOx/InPlace" />
+    </node>
+    <node concept="1UVqHx" id="5OBJED2I23" role="2LQjh3">
+      <property role="1UVqHv" value="7uilBodvZOq/Left" />
+      <property role="1UVqHs" value="7uilBodvZOx/InPlace" />
+    </node>
+    <node concept="1UVqHz" id="5OBJED2I24" role="2LQjh3" />
+    <node concept="1UVqHx" id="5OBJED2I25" role="2LQjh3">
+      <property role="1UVqHv" value="7uilBodvZOr/Right" />
+      <property role="1UVqHq" value="7uilBodvZO_/Left" />
+      <property role="1UVqHs" value="7uilBodvZOx/InPlace" />
+    </node>
+    <node concept="1UVqHx" id="5OBJED2I26" role="2LQjh3">
+      <property role="1UVqHv" value="7uilBodvZOq/Left" />
+      <property role="1UVqHq" value="7uilBodvZO_/Left" />
+      <property role="1UVqHs" value="7uilBodvZOx/InPlace" />
+    </node>
+    <node concept="1UVqHx" id="5OBJED2I27" role="2LQjh3">
+      <property role="1UVqHv" value="7uilBodvZOr/Right" />
+      <property role="1UVqHs" value="7uilBodvZOx/InPlace" />
+    </node>
+    <node concept="1UVqHz" id="5OBJED2I28" role="2LQjh3" />
+  </node>
 </model>
 

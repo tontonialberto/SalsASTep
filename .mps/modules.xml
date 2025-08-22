@@ -4,6 +4,8 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/StepLang.sandbox/StepLang.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/StepLang/StepLang.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Importer/Importer.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/XMLImporterPlugin/XMLImporterPlugin.msd" folder="" />
     </projectModules>
   </component>
 </project>
